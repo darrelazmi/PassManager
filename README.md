@@ -40,7 +40,9 @@ Vaultwarden merupakan sebuah web app yang bertujuan untuk membantu anda dalam me
 #### Docker
 Proses instalasi menggunakan Docker hanyalah salah satu cara, banyak cara lainnya yang bisa disesuaikan dengan preferensi masing-masing.
 
-1. Pasang [Docker](https://www.docker.com/) dan [Docker Compose](https://docs.docker.com/compose/)
+#1 Hapus package yang konflik
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
 
 2. *Clone* repositori:
 ```
