@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/logo%20azure.png" alt="GitHub Pipenv locked Python version" height="20">
+  <img src="images/linux.webp" alt="GitHub Pipenv locked Python version" height="20">
   <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/logo%20docker.png" alt="GitHub Pipenv locked Python version" height="20">
-  <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/logo%20pyhton.png" alt="GitHub Pipenv locked Python version" height="20">
-  <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/django%20logo.png" alt="GitHub Pipenv locked Python version" height="20">
+  <img src="images/linux.webp" alt="GitHub Pipenv locked Python version" height="20">
+<!--   <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/django%20logo.png" alt="GitHub Pipenv locked Python version" height="20"> -->
   </p>
 
 <p align="center">
