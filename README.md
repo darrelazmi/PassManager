@@ -88,7 +88,7 @@ docker run --name caddy --network proxy-net \
 ```
   
 ## Otomatisasi
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#page1)
 
 Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*. *Shell script* adalah kumpulan kode yang dapat dijalankan di Unix shell. Berikut adalah kumpulan *shell script* untuk instalasi, menjalankan, serta menghentikan server aplikasi.
 
