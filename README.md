@@ -25,7 +25,7 @@
 # Sekilas Tentang
 ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/Loginpage.png)
 
-[IHateToBudget](https://github.com/bminusl/ihatetobudget) adalah sebuah web app yang bertujuan untuk membantu dalam memahami dan mengontrol pengeluaran/budget. Pada web app ini, kita dapat mengkategorikan jenis dan total pengeluaran yang ada pada suatu bulan sehingga kita dapat melihat berapa pengeluaran kita untuk setiap bulannya. Kita juga bisa melihat dan memfilter pengeluaran bulan mana yang mau dilihat. Dengan web app ini, diharapkan dapat membantu dalam memanajemen keuangan.
+Vaultwarden merupakan sebuah web app yang bertujuan untuk membantu anda dalam menyimpan password didalam cloud. Pada web app ini, kita dapat menyimpan password dengan menandai tipe password, nama dari passwordnya, username dan tentunya juga password yang ingin kita simpan di cloud. Kelebihan yang didapatkan dari web app ini adalah password yang disimpan di Vaultwarden memiliki keamanan extra dari server yang membuat password yang disimpan di web ini jauh lebih aman.
 
 ## Instalasi
 [`^ kembali ke atas ^`](#)
