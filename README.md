@@ -16,7 +16,7 @@
   <br>
   Didesain untuk dihosting sendiri.
   <br>
-  <em>Reference by *bntr blom.</em>
+  <em>Reference by [PasswordManager](https://github.com/dani-garcia/vaultwarden).</em>
 </p>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
