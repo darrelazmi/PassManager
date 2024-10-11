@@ -109,20 +109,13 @@ Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*
 ## Cara Pemakaian
 [`^ kembali ke atas ^`](#)
 - Tampilan Aplikasi Web
+    - Tampilan Halaman Log In
+        ![alt text](images/login.png)
     - Tampilan Utama Aplikasi
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/homepage.png)
+        ![alt text](images/homejga.png)
 - Fungsi-fungsi utama
-    - Menambah Kategori Pengeluaran Baru
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/NewCategoryPage.png)
-    - Menambah Pengeluaran Baru
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/NewExpensePage.png)
-    - Melihat Riwayat Pengeluaran
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/HistoryPage.png)
-- Contoh Pemakaian
-    - Pembuatan Kategori Pengeluaran Baru
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/CreateNewCategory.png)
-    - Pembuatan Pengeluaran Baru
-        ![alt text](https://github.com/HijazP/i-hate-to-budget/blob/main/Image/CreateNewExpense.png)
+    - Menambah Password Baru
+        ![alt text](images/home.png)
 
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
