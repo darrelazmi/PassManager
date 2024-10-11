@@ -93,15 +93,7 @@ docker run --name caddy --network proxy-net \
 Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*. *Shell script* adalah kumpulan kode yang dapat dijalankan di Unix shell. Berikut adalah kumpulan *shell script* untuk instalasi, menjalankan, serta menghentikan server aplikasi.
 
 #### Cara menjalankannya dengan perintah `./(nama).sh`
-1. [setup.sh](https://github.com/HijazP/i-hate-to-budget/shell/setup.sh) berisi kode `git clone` dan `cp`.
-
-2. [change.sh](https://github.com/HijazP/i-hate-to-budget/shell/change.sh) berisi kode untuk konfigurasi tampilan mata uang.
-
-3. [user.sh](https://github.com/HijazP/i-hate-to-budget/shell/user.sh) berisi kode untuk konfigurasi *user*.
-
-4. [start.sh](https://github.com/HijazP/i-hate-to-budget/shell/start.ch) berisi kode untuk menjalankan server.
-
-5. [stop.sh](https://github.com/HijazP/i-hate-to-budget/shell/stop.sh) berisi kode untuk menghentikan server.
+- [setup.sh](https://github.com/HijazP/i-hate-to-budget/shell/setup.sh) berisi kode `git clone` dan `cp`.
 
 *Shell script* `user.sh`, `start.sh`, dan `stop.sh` dan dijalankan kapanpun setelah `setup.sh` dan `change.sh` dijalankan.
 
