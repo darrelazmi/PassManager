@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/bminusl/ihatetobudget/](https://github.com/darrelazmi/PassManager/">
+  <a href="https://github.com/darrelazmi/PassManager/">
     <img src="images/vaultwarden-image.png" alt="IHateToBudget logo" height="130">
   </a>
 </p>
