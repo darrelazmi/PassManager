@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/bminusl/ihatetobudget/">
-    <img src="https://raw.githubusercontent.com/bminusl/ihatetobudget/master/static/logo.png" alt="IHateToBudget logo" height="130">
+    <img src="images/vaultwarden-image.png" alt="IHateToBudget logo" height="130">
   </a>
 </p>
 
