@@ -12,11 +12,11 @@
   </p>
 
 <p align="center">
-  Aplikasi web sederhana untuk mengatur pengeluaran Anda.
+  Aplikasi web sederhana untuk mengatur password  Anda.
   <br>
   Didesain untuk dihosting sendiri.
   <br>
-  <em>Reference by <a href="https://github.com/bminusl/ihatetobudget">bminusl</a>.</em>
+  <em>Reference by *bntr blom.</em>
 </p>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Maintenance](#maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
