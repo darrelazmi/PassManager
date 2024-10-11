@@ -53,13 +53,6 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-
 
 3. *Add the Repository* to Apt sources:
 ```
@@ -70,20 +63,10 @@ echo \
 sudo apt-get update
 ```
 
-4. Edit `docker-compose.env` dan sesuaikan beberapa variabel berikut:
-- `DJANGO_SECRET_KEY`: *Secret key* yang digunakan untuk Django.
-Lihat [di sini](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-SECRET_KEY) untuk informasi lebih lanjut.
-- `CURRENCY_GROUP_SEPARATOR`: Satu karakter untuk memisahkan 3 digit angka (misal: 1.000)
-- `CURRENCY_DECIMAL_SEPARATOR`: Satu karakter untuk memisahkan desimal (misal: 1.000,00)
-- `CURRENCY_PREFIX`: String yang akan diletakkan di awal nomor (misal: Rp. 1.000,00)
-- `CURRENCY_SUFFIX`: String yang akan diletakkan di akhir nomor (misal: Rp. 1.000,00,-)
-Secara *default*, format uang yang disediakan menyesuaikan dengan Euro Prancis. Untuk mengubahnya menjadi rupiah, format yang dipakai sebagai berikut:
 
+4. *Install* the latest version of docker package:
 ```
-CURRENCY_GROUP_SEPARATOR=.
-CURRENCY_DECIMAL_SEPARATOR=,
-CURRENCY_PREFIX=Rp.
-CURRENCY_SUFFIX=
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 Catatan: Jangan lupa hilangkan format komentar (#).
 
