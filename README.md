@@ -53,15 +53,21 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
 
-3. *Copy* beberapa file berikut di dalam foldernya:
-- `docker-compose.yml.example` ke `docker-compose.yml`
-- `docker-compose.env.example` ke `docker-compose.env`
-- `Caddyfile.example` ke `Caddyfile`
+
+3. *Add the Repository* to Apt sources:
 ```
-cp docker-compose.yml.example docker-compose.yml
-cp docker-compose.env.example docker-compose.env
-cp Caddyfile.example Caddyfile
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
 ```
 
 4. Edit `docker-compose.env` dan sesuaikan beberapa variabel berikut:
