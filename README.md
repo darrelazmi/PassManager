@@ -68,9 +68,16 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-Catatan: Jangan lupa hilangkan format komentar (#).
 
-5. Jalankan `docker compose up -d`. Perintah ini akan *build* atau membangun *main image*, membuat dan menjalankan *container*.
+#### INSTALL CONTAINER VAULTWARDEN
+
+# Install Vaultwarden dari public docker repo.
+```
+docker run --name vaultwarden --hostname vaultwarden \
+  --network proxy-net --volume ./vaultwarden:/data --detach \
+  vaultwarden/server
+```
+
 
 6. Jalankan `cron` di dalam *container*nya:
 ```
