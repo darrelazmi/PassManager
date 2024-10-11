@@ -32,9 +32,8 @@ Vaultwarden merupakan sebuah web app yang bertujuan untuk membantu anda dalam me
 [`^ kembali ke atas ^`](#)
 
 ### Kebutuhan Sistem :
-- Sistem Operasi: Windows, Unix, dan lainnya
-- Python: Python versi 3
-- Django: Django versi 3.1.14 atau lebih tinggi
+- Sistem Operasi: Linux Ubuntu
+- Docker: Docker versi terbaru
 - RAM: 64Mb atau lebih tinggi
 
 ### Proses Instalasi :
