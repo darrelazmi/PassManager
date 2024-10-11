@@ -111,11 +111,16 @@ Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*
 - Tampilan Aplikasi Web
     - Tampilan Halaman Log In
         ![alt text](images/login.png)
+    - Tampilan Halaman Daftar
+        ![alt text](images/signup.png)
     - Tampilan Utama Aplikasi
         ![alt text](images/homejga.png)
 - Fungsi-fungsi utama
     - Menambah Password Baru
         ![alt text](images/home.png)
+- Contoh Penggunaan
+    - Contoh Penggunaan Vaultwarden Untuk Mengisi Password
+        ![alt text](images/loginexample.png)
 
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
