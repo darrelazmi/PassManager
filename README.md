@@ -71,58 +71,22 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 #### INSTALL CONTAINER VAULTWARDEN
 
-# Install Vaultwarden dari public docker repo.
+- Install Vaultwarden dari public docker repo.
 ```
 docker run --name vaultwarden --hostname vaultwarden \
   --network proxy-net --volume ./vaultwarden:/data --detach \
   vaultwarden/server
 ```
 
+#### INSTALL CONTAINER CADDY
 
-6. Jalankan `cron` di dalam *container*nya:
+- Install Caddy:
 ```
-docker compose exec ihatetobudget service cron start
+docker run --name caddy --network proxy-net \
+  --publish 80:80 --publish 443:443 --detach \
+  caddy caddy reverse-proxy --from vault.raikun.me --to vaultwarden:80
 ```
-
-7. Untuk bisa *login*, dibutuhkan (super) user. Jalankan perintah berikut untuk membuat akun:
-```
-docker compose run --rm ihatetobudget pipenv run python manage.py migrate
-docker compose run --rm ihatetobudget pipenv run python manage.py createsuperuser
-```
-
-8. Sekarang Anda sudah bisa mengakses [IHateToBudgetInstance](127.0.0.1) di `http://127.0.0.1:80`. *Login* menggunakan *username* dan *password* yang sebelumnya sudah dibuat.
-
-## Maintenance
-[`^ kembali ke atas ^`](#)
-
-#### Docker
-1. Pergi ke *root* di repositori.
-
-2. Jalankan `docker compose down -v`, akan mengehentikan semua *container* yang sedang berjalan.
-
-3. Membuat cadangan *database* (opsional), jalankan `cp db.sqlite3 db.sqlite3.bak`.
-
-4. *Update codebase* menggunakan perintah `git pull`.
-
-5. *Rebuild image*:
-```
-docker compose build
-```
-
-6. Migrasi *database*:
-```
-docker compose run --rm ihatetobudget pipenv run python manage.py migrate
-```
-Aksi ini akan mensinkronisasikan *database state* dengan set terbaru.
-
-7. Jalankan `docker compose up -d`, untuk menjalankan container.
-
-8. Jalankan `cron` di dalam *container*nya:
-```
-docker compose exec ihatetobudget service cron start
-```
-
-
+  
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
 
