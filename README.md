@@ -40,16 +40,18 @@ Vaultwarden merupakan sebuah web app yang bertujuan untuk membantu anda dalam me
 #### Docker
 Proses instalasi menggunakan Docker hanyalah salah satu cara, banyak cara lainnya yang bisa disesuaikan dengan preferensi masing-masing.
 
-#1 Hapus package yang konflik<br>
+1. *Hapus* package yang konflik:
 ```
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 
-
-2. *Clone* repositori:
+2. *Add Docker's* official GPG key:
 ```
-git clone https://github.com/bminusl/ihatetobudget.git
-cd ihatetobudget
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
 3. *Copy* beberapa file berikut di dalam foldernya:
