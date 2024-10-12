@@ -13,9 +13,6 @@
 
 <p align="center">
   Aplikasi web sederhana untuk mengatur password  Anda.
-  <br>
-  Didesain untuk dihosting sendiri.
-  <br>
   <em>Reference by <a href="https://github.com/dani-garcia/vaultwarden">vaultwarden</a>.</em>
 </p>
 
