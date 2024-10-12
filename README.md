@@ -142,10 +142,10 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
       4. Manajemen Password yang Mudah: Vaultwarden memungkinkan pengelolaan password dengan tipe-tipe khusus, membuatnya lebih terstruktur dan mudah diakses.
 
     - ### Kekurangan
-    1. Konfigurasi Awal yang Rumit: Proses instalasi memerlukan beberapa langkah teknis, terutama bagi pengguna yang kurang familiar dengan Docker dan Linux.
-    2. Ketergantungan pada Docker: Pengguna yang tidak terbiasa dengan Docker mungkin menghadapi kesulitan dalam mengelola container.
-    3. Tidak User-friendly: Antarmuka dan pengelolaan Vaultwarden mungkin terlalu teknis bagi pengguna awam, terutama yang tidak terbiasa dengan konsep self-hosting.
-    4. Terbatas pada Lingkungan Self-hosted: Tidak cocok bagi pengguna yang ingin menggunakan aplikasi tanpa mengelola server sendiri.
+      1.  Konfigurasi Awal yang Rumit: Proses instalasi memerlukan beberapa langkah teknis, terutama bagi pengguna yang kurang familiar dengan Docker dan Linux.
+      2. Ketergantungan pada Docker: Pengguna yang tidak terbiasa dengan Docker mungkin menghadapi kesulitan dalam mengelola container.
+      3. Tidak User-friendly: Antarmuka dan pengelolaan Vaultwarden mungkin terlalu teknis bagi pengguna awam, terutama yang tidak terbiasa dengan konsep self-hosting.
+      4. Terbatas pada Lingkungan Self-hosted: Tidak cocok bagi pengguna yang ingin menggunakan aplikasi tanpa mengelola server sendiri.
      
 - Bandingkan dengan aplikasi web lain yang sejenis
   ### Money Lover
