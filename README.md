@@ -117,6 +117,16 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
 - Fungsi-fungsi utama
     - Menambah Password Baru
         ![alt text](images/home.png)
+    - Dapat Membuat Password Sesuai Kebutuhan dan Kriteria Yang Diinginkan
+        ![image](images/PasswordGenerator.png)
+    - Dapat Mengunggah Data Sesuai Kebutuhan
+        ![image](images/Importvault.png)
+    - Dapat Mengekstrak Data Dari Dalam Web
+        ![image](images/Exportvault.png)
+    - Memberikan Laporan Terkait Keamanan Password
+        ![image](images/Reports.png)
+    - Mengirim Filoe atau Teks
+        ![image](images/Send.png)
 - Contoh Penggunaan
     - Contoh Penggunaan Vaultwarden Untuk Mengisi Password
         ![alt text](images/loginexample.png)
@@ -126,19 +136,17 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
 
 - Pendapat anda tentang aplikasi web ini
     - ### Kelebihan
-      1. Dapat mengatur sendiri kategori pengeluaran
-      ![image](https://user-images.githubusercontent.com/65883882/196928714-801e1f62-ce89-4863-92e0-9645c3cd447e.png)
-      2. Dapat melihat history pengeluaran
-      ![image](https://user-images.githubusercontent.com/65883882/196929056-3bd522a1-6c5d-4cc0-bf9a-fe95491399c1.png)
-      3. Terdapat insight pengeluaran per bulannya
-      ![image](https://user-images.githubusercontent.com/65883882/196929851-ac9666bf-a346-43f8-8fa5-9c339b3c7764.png)
+      1. Keamanan Tinggi: Vaultwarden menawarkan keamanan ekstra dengan server yang melindungi data yang disimpan, termasuk enkripsi yang baik untuk melindungi password.
+      2. Self-hosting: Aplikasi ini bisa di-host sendiri, sehingga pengguna memiliki kontrol penuh atas data mereka tanpa perlu khawatir tentang pihak ketiga.
+      3. Integrasi Docker: Menggunakan Docker memudahkan proses instalasi dan pengelolaan aplikasi, memberikan fleksibilitas dan kemudahan dalam deployment.
+      4. Manajemen Password yang Mudah: Vaultwarden memungkinkan pengelolaan password dengan tipe-tipe khusus, membuatnya lebih terstruktur dan mudah diakses.
 
     - ### Kekurangan
-      1. Hanya mencatat jumlah pengeluaran, tidak mencatat saldo yang ada
-      ![image](https://user-images.githubusercontent.com/65883882/196930621-c0826813-e429-4ff7-945e-88a5af0a5274.png)
-      2. Tidak bisa lebih dari 1 akun dalam 1 server
-      ![image](https://user-images.githubusercontent.com/65883882/196932444-0107dbcb-4eab-4e5c-af0c-7bc012767ef9.png)
-      
+    1. Konfigurasi Awal yang Rumit: Proses instalasi memerlukan beberapa langkah teknis, terutama bagi pengguna yang kurang familiar dengan Docker dan Linux.
+    2. Ketergantungan pada Docker: Pengguna yang tidak terbiasa dengan Docker mungkin menghadapi kesulitan dalam mengelola container.
+    3. Tidak User-friendly: Antarmuka dan pengelolaan Vaultwarden mungkin terlalu teknis bagi pengguna awam, terutama yang tidak terbiasa dengan konsep self-hosting.
+    4. Terbatas pada Lingkungan Self-hosted: Tidak cocok bagi pengguna yang ingin menggunakan aplikasi tanpa mengelola server sendiri.
+     
 - Bandingkan dengan aplikasi web lain yang sejenis
   ### Money Lover
   1. Terdapat pembagian untuk sumber uang
