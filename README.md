@@ -93,7 +93,7 @@ docker run --name caddy --network proxy-net \
 
 Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*. *Shell script* adalah kumpulan kode yang dapat dijalankan di Unix shell. Anda bisa menngunakan *shell script* yang sudah kami buat untuk instalasi dengan petunjuk berikut:
 
-#### Download *setup.sh* menggunakan *curl*
+#### Download `setup.sh` menggunakan `curl`
 ```
 curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
 ```
@@ -102,7 +102,7 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
 ```
 ./setup.sh
 ```
-*Shell script* `start.sh` berisi kumpulan perintah untuk instalasi vaultwarden.
+*Shell script* `setup.sh` berisi kumpulan perintah untuk instalasi vaultwarden.
 
 
 ## Cara Pemakaian
