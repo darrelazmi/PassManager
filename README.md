@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="images/linux.webp" alt="GitHub Pipenv Linux Version" height="20">
-  <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/logo%20docker.png" alt="GitHub Pipenv Docker Version" height="20">
+  <img src="images/logo%20docker.png" alt="GitHub Pipenv Docker Version" height="20">
   <img src="images/ubuntu.webp" alt="GitHub Pipenv Ubuntu version" height="20">
 <!--   <img src="https://github.com/HijazP/i-hate-to-budget/blob/main/Image/django%20logo.png" alt="GitHub Pipenv locked Python version" height="20"> -->
   </p>
