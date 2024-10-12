@@ -142,23 +142,18 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
       4. Manajemen Password yang Mudah: Vaultwarden memungkinkan pengelolaan password dengan tipe-tipe khusus, membuatnya lebih terstruktur dan mudah diakses.
 
     - ### Kekurangan
-      1.  Konfigurasi Awal yang Rumit: Proses instalasi memerlukan beberapa langkah teknis, terutama bagi pengguna yang kurang familiar dengan Docker dan Linux.
+      1. Konfigurasi Awal yang Rumit: Proses instalasi memerlukan beberapa langkah teknis, terutama bagi pengguna yang kurang familiar dengan Docker dan Linux.
       2. Ketergantungan pada Docker: Pengguna yang tidak terbiasa dengan Docker mungkin menghadapi kesulitan dalam mengelola container.
       3. Tidak User-friendly: Antarmuka dan pengelolaan Vaultwarden mungkin terlalu teknis bagi pengguna awam, terutama yang tidak terbiasa dengan konsep self-hosting.
       4. Terbatas pada Lingkungan Self-hosted: Tidak cocok bagi pengguna yang ingin menggunakan aplikasi tanpa mengelola server sendiri.
      
 - Bandingkan dengan aplikasi web lain yang sejenis
-  ### Money Lover
-  1. Terdapat pembagian untuk sumber uang
-  ![image](https://user-images.githubusercontent.com/65883882/196955697-2b1ce911-b781-4be9-b2bc-e18977ed5d37.png)
-  2. Kategori pengeluaran sudah tersedia, namun tidak dapat dikustomisasi
-  ![image](https://user-images.githubusercontent.com/65883882/196955818-f19f4168-f6a5-4a50-bf8a-b3de68a05de0.png)
-  
-  ### SikapiUangmu - OJK
-  1. Terdapat opsi untuk menghitung harta dan dikurangi dengan utang yang dimiliki
-  ![image](https://user-images.githubusercontent.com/65883882/196956060-e12af8c7-20f1-4de7-b9d8-24b4ef3a1bbf.png)
-  2. Terdapat kalkulator untuk menghitung kesehatan keuangan
-  ![image](https://user-images.githubusercontent.com/65883882/196956147-34c8f6b2-b253-49ac-89e3-9a184abec20b.png)
+  - ### Google Password Manager
+    1. Keamanan: Tersimpan di akun Google dengan enkripsi, namun data di-host di server Google, yang berpotensi lebih rentan terhadap serangan atau pelanggaran privasi dibandingkan dengan solusi self-hosted.
+    2. Kemudahan Penggunaan: Sangat mudah digunakan, namun kesederhanaannya dapat menurunkan kontrol atas pengelolaan kata sandi yang lebih rinci.
+    3. Privasi: Data sepenuhnya di-host oleh Google, yang berarti pengguna harus mempercayakan privasi mereka pada perusahaan pihak ketiga. Ini bisa menjadi risiko bagi pengguna yang lebih sadar akan privasi.
+    4. Sinkronisasi: Otomatis di semua perangkat yang menggunakan akun Google, tetapi tergantung pada infrastruktur Google, yang bisa menjadi titik lemah jika terjadi pelanggaran data.
+    5. Fitur Tambahan: Memiliki fitur pemeriksaan keamanan kata sandi, namun kurang fleksibel dalam manajemen kata sandi dan tidak memiliki opsi pengelolaan mandiri seperti Vaultwarden.
 
 ## Referensi
 - [Azure Cloud](https://azure.microsoft.com/id-id/)
