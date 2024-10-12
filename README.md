@@ -156,9 +156,8 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
     5. Fitur Tambahan: Memiliki fitur pemeriksaan keamanan kata sandi, namun kurang fleksibel dalam manajemen kata sandi dan tidak memiliki opsi pengelolaan mandiri seperti Vaultwarden.
 
 ## Referensi
-- [Azure Cloud](https://azure.microsoft.com/id-id/)
 - [Docker](https://www.docker.com/)
-- [Money Lover](https://moneylover.me/)
-- [SikapiUangmu - OJK](https://sikapiuangmu.ojk.go.id/FrontEnd/Kalkulator/Kalkulator%20Dompet)
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden/)
+- [Google Password Manager](https://passwords.google.com/)
 
 [`^ kembali ke atas ^`](#)
