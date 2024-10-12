@@ -123,7 +123,7 @@ curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
         ![image](images/Exportvault.png)
     - Memberikan Laporan Terkait Keamanan Password
         ![image](images/Reports.png)
-    - Mengirim Filoe atau Teks
+    - Mengirim File atau Teks
         ![image](images/Send.png)
 - Contoh Penggunaan
     - Contoh Penggunaan Vaultwarden Untuk Mengisi Password
