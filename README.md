@@ -96,6 +96,7 @@ Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*
 ```
 curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
 ```
+
 ### Ubah `<your-domain>` menjadi nama domain anda
 Misalkan domain anda adalah vault.yourdomain.com
 ```
