@@ -85,6 +85,7 @@ docker run --name caddy --network proxy-net \
   --publish 80:80 --publish 443:443 --detach \
   caddy caddy reverse-proxy --from <your-domain> --to vaultwarden:80
 ```
+Note: Ubah `<your-domain>` menjadi domain milik Anda.
   
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
@@ -94,6 +95,11 @@ Cara lain untuk mempersingkat proses instalasi adalah menggunakan *shell script*
 #### Download `setup.sh` menggunakan `curl`
 ```
 curl -LO https://github.com/darrelazmi/PassManager/blob/main/shell/setup.sh
+```
+### Ubah `<your-domain>` menjadi nama domain anda
+Misalkan domain anda adalah vault.yourdomain.com
+```
+sed -i 's/<your-domain>/vault.yourdomain.com/g' setup.sh
 ```
 
 #### Jalankan dengan perintah `./setup.sh`
