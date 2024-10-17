@@ -83,7 +83,7 @@ docker run --name vaultwarden --hostname vaultwarden \
 ```
 docker run --name caddy --network proxy-net \
   --publish 80:80 --publish 443:443 --detach \
-  caddy caddy reverse-proxy --from vault.raikun.me --to vaultwarden:80
+  caddy caddy reverse-proxy --from <your-domain> --to vaultwarden:80
 ```
   
 ## Otomatisasi
